@@ -79,7 +79,7 @@ The design follows a vintage newspaper aesthetic: serif typography, a warm
     [vars]
     CLERK_PUBLISHABLE_KEY = "pk_test_xxxxxxxxxxxxxxxx"
     CLERK_FRONTEND_API_URL = "https://your-clerk-frontend.clerk.accounts.dev"
-    ANIVEXA_API_URL = "https://anivexa-api-gubc.onrender.com"
+    ANIVEXA_API_URL = "localhost:4000"
     STREAM_PROXY_URL = "https://stream-proxy.muldera.workers.dev/?url="
 
 
@@ -174,7 +174,7 @@ The design follows a vintage newspaper aesthetic: serif typography, a warm
   cache for 5 minutes (max-age=300). A Cache HIT/MISS header is included.
 
   Example:
-    /api/episodes/21  ->  https://anivexa-api-gubc.onrender.com/episodes/21
+    /api/episodes/21  ->  localhost:4000/episodes/21
 
   5.6  MangaDex Proxy (/md/*)
   ---------------------------------------------------------------------------
@@ -242,7 +242,7 @@ The design follows a vintage newspaper aesthetic: serif typography, a warm
        [vars]
        CLERK_PUBLISHABLE_KEY = "pk_test_xxxxx"
        CLERK_FRONTEND_API_URL = "https://your-clerk.clerk.accounts.dev"
-       ANIVEXA_API_URL = "https://anivexa-api-gubc.onrender.com"
+       ANIVEXA_API_URL = "localhost:4000"
        STREAM_PROXY_URL = "https://stream-proxy.muldera.workers.dev/?url="
 
     4. Deploy:  wrangler deploy
