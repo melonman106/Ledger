@@ -1,0 +1,3 @@
+Anivexa API: https://github.com/walterwhite-69/Anivexa-API/tree/main/
+Mangadex API: https://api.mangadex.org/
+Cloudfalre Docs: https://developers.cloudflare.com/workers/
