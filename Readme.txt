@@ -69,7 +69,7 @@ The design follows a vintage newspaper aesthetic: serif typography, a warm
   ------------------------  --------  ----------------------------------------
   CLERK_PUBLISHABLE_KEY     Yes       (none)
   CLERK_FRONTEND_API_URL   Yes       (none)
-  ANIVEXA_API_URL           No        https://anivexa-api-gubc.onrender.com
+  ANIVEXA_API_URL           No        localhost:4000
   STREAM_PROXY_URL         No        https://stream-proxy.muldera.workers.dev/?url=
 
   Set these in the Workers dashboard under Settings > Variables, or in your
@@ -278,7 +278,12 @@ The design follows a vintage newspaper aesthetic: serif typography, a warm
   Styling               Inline CSS (no external framework)
   Design                Vintage newspaper aesthetic (serif + monospace)
 
-
+--------------------------------------------------------------------------------
+  10. Anivexa API
+--------------------------------------------------------------------------------
+git clone https://github.com/melonman106/Ledger/
+cd Ledger/API/Anivexa
+node server.js
 --------------------------------------------------------------------------------
   END OF FILE
 ================================================================================
