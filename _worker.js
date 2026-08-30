@@ -1,5 +1,5 @@
 import { handleProgress } from './src/api/progress.js';
-import { handleApiProxy, handleMangaDexProxy } from './api/proxy.js';
+import { handleApiProxy, handleMangaDexProxy } from './src/api/proxy.js';
 import { indexPage } from './src/pages/index.js';
 import { detailPage } from './src/pages/detail.js';
 import { watchPage } from './src/pages/watch.js';
