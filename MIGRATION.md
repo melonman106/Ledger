@@ -45,3 +45,4 @@ That's the only required change. Wrangler's bundler (esbuild under the hood) res
 - Ran the actual bundled Worker under `wrangler dev` and hit every route (`/`, `/detail/:id`, `/watch/:id`, `/read/:id`, an unknown path) — all returned correct HTTP status codes (200/200/200/200/404)
 
 This is about as close to "guaranteed to work" as I can get without your live Anivexa/Clerk/AniList credentials.
+
