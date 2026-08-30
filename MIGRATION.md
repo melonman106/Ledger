@@ -46,3 +46,4 @@ That's the only required change. Wrangler's bundler (esbuild under the hood) res
 
 This is about as close to "guaranteed to work" as I can get without your live Anivexa/Clerk/AniList credentials.
 
+CREDIT ME
