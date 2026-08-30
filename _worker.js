@@ -1,10 +1,10 @@
-import { handleProgress } from './api/progress.js';
+import { handleProgress } from './src/api/progress.js';
 import { handleApiProxy, handleMangaDexProxy } from './api/proxy.js';
-import { indexPage } from './pages/index.js';
-import { detailPage } from './pages/detail.js';
-import { watchPage } from './pages/watch.js';
-import { readPage } from './pages/read.js';
-import { notFoundPage } from './pages/notfound.js';
+import { indexPage } from './src/pages/index.js';
+import { detailPage } from './src/pages/detail.js';
+import { watchPage } from './src/pages/watch.js';
+import { readPage } from './src/pages/read.js';
+import { notFoundPage } from './src/pages/notfound.js';
 
 export default {
   async fetch(request, env) {
